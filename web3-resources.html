@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TNNHL7X');</script>
+        <!-- End Google Tag Manager -->
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="The Web3 Resources page aspires to be the first and only destination anyone needs to go for all their Web3, NFT, and Crypto information whether you're newly entering the space (welcome fren!) or have been buying crypto for a decade. Please share any resources you think would add value by tweeting @futurenftmints. DMs open." />
+        <meta name="author" content="Future NFT Mints" />
+        <title>Future NFT Mints - Web3 Resources</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNNHL7X"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><img width="100"  class="d-inline-block align-top" src="assets/logo-navbar.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="web3-resources.html">Web3 Resources</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nft-trust-playbook.html">Trust Playbook</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nft-submission-form.html">Submission Form</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://t.me/+O1AqDR1ZD882MGQx" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/telegram-logo.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="pt-5 pb-4">
+                <div class="container px-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xxl-6">
+                            <div class="text-center my-2">
+                                <h1 class="fw-bolder mb-1">Web3 Resources</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-xxl-10">
+                            <div class="text-left my-1">          
+                                <p class="lead fw-normal text-muted mb-4">The Web3 Resources page aspires to be the first and only destination anyone needs to go for all their Web3, NFT, and Crypto information whether you're newly entering the space (welcome fren!) or have been buying crypto for a decade. Please share any resources you think would add value by tweeting <a href="https://twitter.com/futurenftmints" target="_BLANK">@futurenftmints</a>. DMs open.</p>        
+                                <p class="lead fw-normal text-muted mb-4">BUILDERS: As soon as you have any details about your NFT mint, please use our <a href="nft-submission-form.html">NFT Submission Form</a> to get on our radar. You can submit anytime you have new info, and we'll review it. Any submission with a public team will be automatically added to NFT Calendar (coming soon!), and you'll be given priority consideration for our daily Insights Report.</p>                        
+                                <a class="btn btn-outline-primary btn-lg" href="https://clicktotweet.com/oxNfU" target="_BLANK">Share <img width="30" class="d-inline-block align-top" src="assets/twitter-logo.png"></a>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container px-5">                
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-xxl-2">
+                        <div class="lead fw-normal text-muted">Type</div>
+                        <select class="form-control" id="buyerBuilder" name="BuyerBuilder" onchange="buyerBuilder()" />
+                            <option value="all">Both</option>
+                            <option value="buyer"><i class="bi bi-wallet2"></i>Buyer</option>
+                            <option value="builder"><i class="bi bi-tools"></i>Builder</option>
+                        </select>
+                    </div>                    
+                    <div class="col-lg-2 col-xxl-2">
+                        <div class="lead fw-normal text-muted">Level</div>
+                        <select class="form-control" id="level" name="Level" onchange="level()" />
+                            <option value="all">All</option>
+                            <option value="level1">Onboarding</option>
+                            <option value="level2">Beginner</option>
+                            <option value="level3">Experienced</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="container px-5 mb-5">  
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">Climate Conscious</h3>
+                        </div>
+                    </div>
+                </div>     
+                <div id="both-1">     
+                <div id="level2-1">     
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://positiveblockchain.io/" target="_BLANK">Environmentally conscious projects and blockchains by Positive Blockchain (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">Crypto</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-2">  
+                <div id="level2-2">    
+                    <div class="row justify-content-left builder mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://messari.io/pdf/messari-report-crypto-theses-for-2022.pdf" target="_BLANK">Crypto Theses for 2022 by Messari (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-3">   
+                <div id="level2-3">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://open.spotify.com/episode/01xA9tZAb3n03C5uysRmRG?si=K1QQuDu0TCyxVBkcSUgNoQ" target="_BLANK">10 Predictions about Crypto in 2022 with Ryan Selkis by Bankless (Podcast)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-4">   
+                <div id="level2-4">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/katiewav/status/1457471462395232256?s=21" target="_BLANK">A Primer on Layer2 by Katie (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-5">   
+                <div id="level3-1">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/technology/status/1461125037591867404?s=21" target="_BLANK">Is Solana an Ethereum killer? by Bloomberg Technology (Video)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">DAOs</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-6">   
+                <div id="level2-5">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://daocentral.com/" target="_BLANK">Find and learn about DAOs by DAO Central (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-1">   
+                <div id="level2-6">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/altmbr/status/1468686844963471370" target="_BLANK">Resources to Find and Pick Your DAO by Brian Altman (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">DeFi</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-7">   
+                <div id="level2-7">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://newsletter.thedefiant.io/" target="_BLANK">The Defiant (Newsletter)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-8">   
+                <div id="level2-8">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.youtube.com/playlist?list=PLNzMl-Xdbc4Z6C-BEEvvzTACtPGpc9Mdd" target="_BLANK">DeFi for Beginners (YouTube)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">Marketing</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="builder-1">   
+                <div id="level2-9">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://anjalikapoor.substack.com/p/the-future-of-loyalty-marketing-is" target="_BLANK">The Future of Loyalty Marketing Is Crypto Enabled by Anjali Kapoor (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-2">   
+                <div id="level2-10">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://moz.com/blog/the-fundamentals-of-building-and-managing-your-community" target="_BLANK">The Fundamentals of Building and Managing Your Community by Moz (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-3">   
+                <div id="level2-11">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.businessoffashion.com/articles/technology/how-to-market-an-nft/" target="_BLANK">How to Market an NFT by Business of Fashion (Article - Paywall)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-4">   
+                <div id="level3-2">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://github.com/Anish-Agnihotri/tweetdrop" target="_BLANK">Scrap ETH wallet addresses from Twitter by Anish Agnihorti (GitHub Repo)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-5">   
+                <div id="level3-3">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.amazon.com/dp/1292329998" target="_BLANK">Build Your Community by Richard Millington (Book)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">NFTs</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-11">   
+                <div id="level1-1">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d" target="_BLANK">Beginners Guide to NFTs by Linda Xie (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-8">   
+                <div id="level1-2">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/OneBandwagonFan/status/1468441748582055941?t=iff-SEw6aI1_97Sb1cvAuw&s=19" target="_BLANK">How to setup your ENS by Harold Hughes (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-9">   
+                <div id="level2-12">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www-coindesk-com.cdn.ampproject.org/c/s/www.coindesk.com/policy/2021/12/15/why-corporate-america-is-getting-nfts-all-wrong/?outputType=amp" target="_BLANK">Why Corporate America is Getting NFTs All Wrong by Janine Yorio, Coindesk (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-10">   
+                <div id="level2-13">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.amazon.com/dp/B09LFW4QTK" target="_BLANK">The NFT Handbook by Matt Fortnow & QuHarrison Terry (Book)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-20">   
+                <div id="level2-24">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="nft-trust-playbook.html" target="_BLANK">NFT Trust Playbook by Future NFT Mints (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-6">   
+                <div id="level2-14">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://madewithmason.com/" target="_BLANK">NFT Creator Tools by Made With Mason (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-7">   
+                <div id="level2-15">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches/" target="_BLANK">A Guide to Designing Effective NFT Launches by Hasu & Anish Agnihotri, Paradigm (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-2">   
+                <div id="level2-16">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://creators.mirror.xyz/5heGuW5JIkDp67D4j4DtRpAi4ToiJzCeNFunU4cjkBw" target="_BLANK">Find this buriedtreasure.eth by Jonathan Hillis (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-3">   
+                <div id="level2-17">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://link.medium.com/URrfrDgdfmb" target="_BLANK">A Beginners Guide to NFTs and the Metaverse by Dan Murray-Serter (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-4">   
+                <div id="level3-4">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="http://bottle.to" target="_BLANK">Send NFTs with a Message to Any Wallet by Bottle.To (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-5">   
+                <div id="level3-5">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://opensea.io/collection/ryzenlabs" target="_BLANK">NFT-gated Sniping Tool by Ryzen (OpenSea)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-6">   
+                <div id="level3-6">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.genie.xyz/" target="_BLANK">Floor Sweeing Bot + Buy Multiple NFTs by Genie (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-7">   
+                <div id="level3-7">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.nftimeshares.fun/" target="_BLANK">NFT Timeshares (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>                
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">Security</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-12">   
+                <div id="level2-18">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://support.ledger.com/hc/en-us/articles/360018784134-Set-up-your-Ledger-Nano-X?docs=true" target="_BLANK">Setup Ledger Best Practices by Ledger (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-9">   
+                <div id="level2-19">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/punk6529/status/1461742366696652809?s=21" target="_BLANK">How to Secure your NFTs by Punk 6529 (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="builder-8">   
+                <div id="level3-8">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://vitalik.ca/general/2021/01/11/recovery.html" target="_BLANK">Why We Need Wide Adoption of Social Recovery Wallets by Vitalik (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-10">   
+                <div id="level2-23">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/tornadocash?s=21" target="_BLANK">Obscure Your Wallet Transfers by Tornado Cash (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">Web3</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-17">   
+                <div id="level1-3">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://docs.google.com/document/d/1SWJw_NTyUvgdB_asRzsnVyKjciW8dZbeqQeUeWsEiQc/edit" target="_BLANK">Web3 Start Pack (Google Doc)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-18">   
+                <div id="level1-4">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b?v=c02511c4230c44ce9a1a03c9757da524" target="_BLANK">Web3 Reading List by Gaby Goldberg (Notion)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-19">   
+                <div id="level1-5">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/chriscantino/status/1473324245426003968?s=21" target="_BLANK">Who owns web3? by Chris Cantino (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="buyer-11">   
+                <div id="level1-6">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/magdalenakala/status/1430651402611675139?s=21" target="_BLANK">Web3 Glossary Terms by mags.eth (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-13">   
+                <div id="level2-20">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://danfowler.substack.com/p/the-crypto-music-industry" target="_BLANK">The Crypto Music Industry by Dan Fowler (Article)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-13">   
+                <div id="level2-24">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://podcasts.apple.com/us/podcast/probably-nothing/id1591462508" target="_BLANK">Probably Nothing by Alexis Ohanian & Tiffany Zhong (Podcast)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-14">   
+                <div id="level2-21">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/ljxie/status/1471313801307820032?s=21" target="_BLANK">Beginners Guide to DeFi, NFTs, DAOs, and Social Tokens by Linda Xie (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-15">   
+                <div id="level2-22">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-2"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://www.nytimes.com/2021/12/20/technology/silicon-valley-cryptocurrency-start-ups.html?smid=tw-nytimes&smtyp=cur" target="_BLANK">The New Get-Rich-Faster Job in Silicon Valley: Crypto Start-Ups by Daisuke Wakabayashi and Mike Isaac, NYTimes (Article - Paywall)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div id="both-16">   
+                <div id="level3-9">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-3"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://dune.xyz/home" target="_BLANK">Analytics Tool for DeFi, NFTs, and More by Dune Analytics (Website)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>                
+
+                <div class="row justify-content-left">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-5">
+                            <h3 class="fw-bolder mb-1">Women-Led Projects</h3>
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="both-19">   
+                <div id="level1-7">    
+                    <div class="row justify-content-left mb-2">
+                        <div class="col-sm-1 col-1">
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-wallet2"></i><i class="bi bi-tools"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-reception-1"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="https://twitter.com/BonnieWMiles/status/1472222077302329348?s=20" target="_BLANK">List of Women-led Projects and Women leaders in Web3 by Bonnie Miles (Twitter Thread)</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+
+                
+            </div>
+            
+            
+            
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; <a href="https://twitter.com/futurenftmints" target="_BLANK">Future NFT Mints</a> 2021 and beyond</div></div>                    
+                    <div class="col-auto">                                                
+                        <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" src="assets/twitter-logo.png"></a>
+                        <a href="https://t.me/+O1AqDR1ZD882MGQx" target="_BLANK"><img width="20" src="assets/telegram-logo.png"></a>
+                        <!--
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>            
+
+            function buyerBuilder() {                
+
+                var select = document.getElementById('buyerBuilder');
+                var value = select.options[select.selectedIndex].value;
+
+                var show = 'one';
+
+                if ( value == 'buyer' ) {
+                    hide = 'builder';
+                }
+                else if ( value == 'builder' ) {
+                    hide = 'buyer';
+                }
+                else {
+                    show = 'both';
+                }
+
+                if ( show == 'one' ) {
+                    hide = hide.concat("-");
+                    show = value.concat("-");
+
+                    for( var i = 1; document.getElementById( hide.concat(i) ); ++i ) {
+                        var x = document.getElementById( hide.concat(i) );
+                        x.style.display = "none";
+                    }
+
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+                }
+                else {
+                    
+                    show = 'buyer-';
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+
+                    show = 'builder-';
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+                }
+            }
+
+            function level() {                
+
+                var select = document.getElementById('level');
+                var value = select.options[select.selectedIndex].value;
+
+                if ( value == 'all' ) {
+                    show = 'level1-';
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+
+                    show = 'level2-';
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+
+                    show = 'level3-';
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+
+                    show = 'level4-';
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+                }
+                else {
+                    show = value.concat("-");
+                    for( var i = 1; document.getElementById( show.concat(i) ); ++i ) {
+                        var x = document.getElementById( show.concat(i) );
+                        x.style.display = "block";
+                    }
+
+                    var hideArray = ['level1', 'level2', 'level3', 'level4'];
+
+                    for( var j = 0; j < 4; ++j ) {
+
+                        if ( value != hideArray[j] ){
+                            hide = hideArray[j].concat("-");
+                            for( var i = 1; document.getElementById( hide.concat(i) ); ++i ) {
+                                var x = document.getElementById( hide.concat(i) );
+                                x.style.display = "none";
+                            }
+                        }
+                    }
+                }                    
+            }
+
+        </script>
+    </body>
+</html>
