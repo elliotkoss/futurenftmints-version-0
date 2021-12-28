@@ -32,6 +32,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom-styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column">
         <!-- Google Tag Manager (noscript) -->
@@ -46,11 +47,42 @@
                     <a class="navbar-brand" href="index.html"><img width="100"  class="d-inline-block align-top" src="assets/logo-navbar.png"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="insights-report.html">Insights Reports</a></li>
-                            <li class="nav-item"><a class="nav-link" href="web3-resources.html">Web3 Resources</a></li>
-                            <li class="nav-item"><a class="nav-link" href="nft-trust-playbook.html">Trust Playbook</a></li>
-                            <li class="nav-item"><a class="nav-link" href="nft-submission-form.html">Submission Form</a></li>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Buyer</a>
+                                <ul class="dropdown-menu dropdown-menu-end dropdown-columns-2" aria-labelledby="navbarDropdownBlog">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Products</h6>
+                                            <li><a class="dropdown-item" href="insights-report.html">Insights Reports</a></li>
+                                            <li><a class="dropdown-item" href="nft-calendar.html">NFT Calendar</a></li>
+                                            <li><a class="dropdown-item" href="genesis-nft.html">Genesis NFT</a></li>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Education</h6>
+                                            <li><a class="dropdown-item" href="web3-resources.html?type=buyer">Web3 Resources</a></li>
+                                            <li><a class="dropdown-item" href="nft-trust-playbook.html?type=buyer">Trust Playbook</a></li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Builder</a>
+                                <ul class="dropdown-menu dropdown-menu-end dropdown-columns-2" aria-labelledby="navbarDropdownBlog">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Products</h6>
+                                            <li><a class="dropdown-item" href="nft-submission-form.html">NFT Submission Form</a></li>
+                                            <li><a class="dropdown-item" href="community-manager-concierge.html">Community Manager Concierge</a></li>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Education</h6>
+                                            <li><a class="dropdown-item" href="web3-resources.html?type=builder">Web3 Resources</a></li>
+                                            <li><a class="dropdown-item" href="nft-trust-playbook.html?type=builder">Trust Playbook</a></li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></li>
                             <li class="nav-item"><a class="nav-link" href="https://t.me/+O1AqDR1ZD882MGQx" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/telegram-logo.png"></a></li>
                         </ul>
