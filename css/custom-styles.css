@@ -1,0 +1,8 @@
+dropdown-columns-2, .dropdown-columns-2 {
+  min-width:  300px;
+}
+@media (min-width: 700px) {
+  dropdown-columns-2, .dropdown-columns-2 {
+    min-width: 500px !important;    
+  }
+}
