@@ -40,8 +40,9 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <main class="flex-shrink-0">
+            
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><img width="100"  class="d-inline-block align-top" src="assets/logo-navbar.png"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -72,7 +73,9 @@
                                         <div class="col-sm-6">
                                             <h6 class="dropdown-header">Products</h6>
                                             <li><a class="dropdown-item" href="nft-submission-form.html">NFT Submission Form</a></li>
+                                            <!--
                                             <li><a class="dropdown-item" href="community-manager-concierge.html">Community Manager Concierge</a></li>
+                                            -->
                                         </div>
                                         <div class="col-sm-6">
                                             <h6 class="dropdown-header">Education</h6>
@@ -82,15 +85,17 @@
                                     </div>
                                 </ul>
                             </li>
+                            <li class="nav-item"><a class="nav-link" href="genesis-nft.html">Genesis NFT</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://t.me/+O1AqDR1ZD882MGQx" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/telegram-logo.png"></a></li>
-                        </ul>
+                            <li class="nav-item"><a class="nav-link" href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/discord-logo.png"></a></li>
+                        </ul>                        
                     </div>
                 </div>
             </nav>
+            
             <!-- Header-->
             <header class="pt-5 pb-4">
-                <div class="container px-5">
+                <div class="container px-5 mt-5">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xxl-6">
                             <div class="text-center my-2">
@@ -490,14 +495,47 @@
             
             
         </main>
+        
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="row">
+                    <div class="col-md-4 text-white">
+                        <h4 class="fw-bolder" style="font-size: 1.5rem;">Buyer</h4>
+                        <a href="insights-report.html" target="_BLANK" style="text-decoration: none; color:white">Insights Reports</a>
+                        <br /><a href="nft-calendar.html" target="_BLANK" style="text-decoration: none; color:white">NFT Calendar</a>
+                        <br /><a href="web3-resources.html?type=buyer" target="_BLANK" style="text-decoration: none; color:white">Web3 Resources</a>
+                        <br /><a href="nft-trust-playbook.html?type=buyer" target="_BLANK" style="text-decoration: none; color:white">Trust Playbook</a>
+                    </div>
+                    <div class="col-md-4 text-white">
+                        <h4 class="fw-bolder" style="font-size: 1.5rem;">Builder</h4>
+                        <a href="nft-submission-form.html" target="_BLANK" style="text-decoration: none; color:white">NFT Submission Form</a>                        
+                        <br /><a href="web3-resources.html?type=builder" target="_BLANK" style="text-decoration: none; color:white">Web3 Resources</a>
+                        <br /><a href="nft-trust-playbook.html?type=builder" target="_BLANK" style="text-decoration: none; color:white">Trust Playbook</a>
+                    </div>
+                    <div class="col-md-4 text-white">
+                       <h4 class="fw-bolder" style="font-size: 1.5rem;">Our NFT</h4>
+                        <a href="genesis-nft.html" target="_BLANK" style="text-decoration: none; color:white">Genesis NFT</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center pt-5">                        
+                        <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="40" src="assets/twitter-logo.png"></a>       
+                        <a href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="40" src="assets/discord-logo.png"></a>                 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center text-white pt-5">                        
+                        Feel free to send donations to
+                        <br />futurenftmints.eth
+                        <br />futurenftmints.sol              
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row mt-5">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; <a href="https://twitter.com/futurenftmints" target="_BLANK">Future NFT Mints</a> 2021 and beyond</div></div>                    
-                    <div class="col-auto">                                                
-                        <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" src="assets/twitter-logo.png"></a>
-                        <a href="https://t.me/+O1AqDR1ZD882MGQx" target="_BLANK"><img width="20" src="assets/telegram-logo.png"></a>
+                    <div class="col-auto text-white">                                                                       
+                        Not Financial Advice (NFA). Do Your Own Research (DYOR).
                         <!--
                         <a class="link-light small" href="#!">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
@@ -509,6 +547,7 @@
                 </div>
             </div>
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

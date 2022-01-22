@@ -20,22 +20,617 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom-styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNNHL7X"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
+        <main class="flex-shrink-0">
+
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><img width="100"  class="d-inline-block align-top" src="assets/logo-navbar.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Buyer</a>
+                                <ul class="dropdown-menu dropdown-menu-end dropdown-columns-2" aria-labelledby="navbarDropdownBlog">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Products</h6>
+                                            <li><a class="dropdown-item" href="insights-report.html">Insights Reports</a></li>
+                                            <li><a class="dropdown-item" href="nft-calendar.html">NFT Calendar</a></li>
+                                            <li><a class="dropdown-item" href="genesis-nft.html">Genesis NFT</a></li>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Education</h6>
+                                            <li><a class="dropdown-item" href="web3-resources.html?type=buyer">Web3 Resources</a></li>
+                                            <li><a class="dropdown-item" href="nft-trust-playbook.html?type=buyer">Trust Playbook</a></li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Builder</a>
+                                <ul class="dropdown-menu dropdown-menu-end dropdown-columns-2" aria-labelledby="navbarDropdownBlog">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Products</h6>
+                                            <li><a class="dropdown-item" href="nft-submission-form.html">NFT Submission Form</a></li>
+                                            <!--
+                                            <li><a class="dropdown-item" href="community-manager-concierge.html">Community Manager Concierge</a></li>
+                                            -->
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="dropdown-header">Education</h6>
+                                            <li><a class="dropdown-item" href="web3-resources.html?type=builder">Web3 Resources</a></li>
+                                            <li><a class="dropdown-item" href="nft-trust-playbook.html?type=builder">Trust Playbook</a></li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="genesis-nft.html">Genesis NFT</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/discord-logo.png"></a></li>
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5 py-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-12">
+                            <div class="my-5 text-center">
+                                <h1 class="display-5 fw-bolder text-white mb-2">Professional NFT Mint Analysis</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Get direct access to the most in-depth, transparent NFT analysis to guide your buying decisions.</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://futurenftmints.substack.com/subscribe" target="_BLANK">FREE Newsletter</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="https://twitter.com/futurenftmints"  target="_BLANK">Follow us <img width="30" class="d-inline-block align-top" src="assets/twitter-logo.png"></a>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </header>           
+            
+            <!-- Insights Report-->
+            <section class="pt-5 pb-2 bg-light" id="scroll-target">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Insights Report</h2>
+                    </div>
+                </div>
+
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-md-4  text-center"><img class="img-fluid rounded mb-5 mb-lg-0" style="width: 300px" src="assets/2022-01-20-FloorGen3.png" alt="..." /></div>
+                        <div class="col-md-8">  
+                            <div class="row">    
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-check2-circle" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Easy-to-read, one-page overview</p>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-check2-circle" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Mint website, Twitter handle, and Discord</p>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-check2-circle" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Team, Community, Utility, Perks, and Mint</p>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-check2-circle" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Roadmap Categories and icons</p>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-check2-circle" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Mint breakdown</p>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-check2-circle" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Bull & Bear case</p>
+                                </div>
+                            </div>
+                            <div class="row my-5">   
+                                <div class="col-2 text-center">  
+                                </div>
+                                <div class="col-10">    
+                                    <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="50" src="assets/twitter-logo.png"></a>
+                                    <a href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="50" src="assets/discord-logo.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Premium Analysis-->
+            <section class="py-2 bg-light" id="scroll-target">
+                <div class="container">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Our Premium Analysis</h2>
+                    </div>
+                </div>
+
+                <div class="container px-5 my-5">
+                    <div class="row gt-5">                        
+                        <div class="col-12">  
+                            <div class="row">    
+                                <div class="col-sm-3">  
+                                </div>
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-gem" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-sm-4 col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Mint Raise Risk Assessment</p>
+                                </div>
+                                <div class="col-sm-3">  
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-sm-3">  
+                                </div>
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-gem" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-sm-4 col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Things We Like</p>
+                                </div>
+                                <div class="col-sm-3">  
+                                </div>
+                            </div> 
+                            <div class="row">    
+                                <div class="col-sm-3">  
+                                </div>
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-gem" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-sm-4 col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">Things We Don't Like</p>
+                                </div>
+                                <div class="col-sm-3">  
+                                </div>
+                            </div>   
+                            <div class="row">    
+                                <div class="col-sm-3">  
+                                </div>
+                                <div class="col-2 text-center">                   
+                                    <i class="bi bi-gem" style="font-size: 2rem"></i>
+                                </div>     
+                                <div class="col-sm-4 col-10">                   
+                                    <p class="lead fw-normal text-muted mb-0" style="font-size: 2rem">In-depth Insights</p>
+                                </div>
+                                <div class="col-sm-3">  
+                                </div>
+                            </div>      
+                            <div class="row py-2">    
+                                <div class="col-sm-3">  
+                                </div>                                  
+                                <div class="col-sm-6 col-12">                   
+                                    <p class="lead fw-normal text-muted mb-0 text-center" style="font-size: 1rem"><a href="https://twitter.com/futurenftmints/status/1484212175233118208" target="_BLANK">Free on Twitter 7 days after mint</a></p>
+                                </div>
+                                <div class="col-sm-3">  
+                                </div>
+                            </div>   
+                        </div>                                               
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Access Our Premium Analysis-->
+            <section class="py-2 bg-light" id="scroll-target">
+                <div class="container">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Premium Analysis Newsletters</h2>
+                    </div>
+                </div>
+
+                <div class="container px-5 my-5">
+                    <div class="row gt-5 text-center">    
+                        <div class="col-2">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        Daily (M-F)
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">$50</span>
+                                        <span class="text-muted">/ mo.</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>5x per week (M-F)</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Insights Report + Premium Analysis
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            At least 1 day prior to Mint
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            List of other mints that day
+                                        </li>    
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Summary of week
+                                        </li>                                         
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-primary btn-lg" href="https://futurenftmints.substack.com/subscribe" target="_BLANK">Sign up now</a></div>
+                                </div>
+                            </div>                            
+                        </div> 
+                        <div class="col-lg-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold">                                        
+                                        Weekly
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">$10</span>
+                                        <span class="text-muted">/ mo.</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>1x per week (Friday)</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Insights Report + Premium Analysis
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            At least 1 day prior to Mint
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            List of other mints that day
+                                        </li> 
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Summary of week
+                                        </li>                                        
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-outline-primary btn-lg" href="https://www.getrevue.co/profile/futurenftmints/members" target="_BLANK">Sign up now</a></div>
+                                </div>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <!-- Free Access-->
+            <section class="py-2 bg-light" id="scroll-target">
+                <div class="container">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Free Access</h2>
+                    </div>
+                </div>
+
+                <div class="container px-5 my-5">
+                    <div class="row gt-5 text-center">    
+                        <div class="col-lg-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold">
+                                        Basic Weekly Newsletter
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">FREE</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>1x per week (Friday)</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Summary of week
+                                        </li>                                         
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-outline-primary btn-lg" href="https://futurenftmints.substack.com/subscribe" target="_BLANK">Sign up now</a></div>
+                                </div>
+                            </div>                            
+                        </div> 
+                        <div class="col-lg-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold">                                        
+                                        Day After Mint
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">FREE</span>                                        
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>Single Tweet</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Insights Report
+                                        </li>
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-outline-primary btn-lg" href="https://twitter.com/futurenftmints" target="_BLANK">Follow us  <img width="30" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></div>
+                                </div>
+                            </div>                            
+                        </div> 
+                        <div class="col-lg-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold">                                        
+                                        7 Days After Mint
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">FREE</span>                                        
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>Tweet Thread</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Insights Report + Premium Analysis
+                                        </li>
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-outline-primary btn-lg" href="https://twitter.com/futurenftmints" target="_BLANK">Follow us  <img width="30" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></div>
+                                </div>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <!-- Genesis NFT -->
+            <section class="py-5" id="scroll-target">
+                <div class="container px-5 mt-5 mb-2">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Genesis NFT</h2>
+                    </div>
+                </div>
+
+                <div class="container px-3 mt-3">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 pt-5">
+                            <h2 class="fw-bolder text-center" style="font-size: 2rem;">Utility + Perks</h2>     
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> Daily Newsletter ($50/month value)</p>   
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> All Premium Analysis</p>   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> Private Discord</p>                   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> Early access to our watch list</p>                   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> 1x raffle spot to Allow List partners</p>                   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> Insights Report of your choice</p>      
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> Reserved Allow List of your choice</p>  
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-chevron-double-right"></i> And more...</p>                   
+                        </div>
+                        <div class="col-lg-4 pt-5">
+                            <h2 class="fw-bolder text-center" style="font-size: 2rem;">Allow List</h2>     
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem">A few communities we love will be invited to our limited Allow List (200 spots).</p>   
+                            <br />
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-plus-square"></i> Club CPG</p>                   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-plus-square"></i> Floor</p>                   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-plus-square"></i> Our first 100 Telegram users</p>  
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-plus-square"></i> Our Genesis NFT signup list</p>                                               
+                        </div>
+                        <div class="col-lg-4 pt-5">
+                            <h2 class="fw-bolder text-center" style="font-size: 2rem;">Mint Details</h2>  
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="lead fw-normal mb-0 text-right" style="font-size: 1.25rem">Date</p>   
+                                </div>
+                                <div class="col-8">
+                                    <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem">Feb 2022</p>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="lead fw-normal mb-0 text-left" style="font-size: 1.25rem">Quantity</p>   
+                                </div>
+                                <div class="col-8">
+                                    <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem">300</p>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="lead fw-normal mb-0 text-left" style="font-size: 1.25rem">Price (ETH)</p>   
+                                </div>
+                                <div class="col-8">
+                                    <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem">0.25 (may change)</p>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="lead fw-normal mb-0 text-left" style="font-size: 1.25rem">Royalty</p>   
+                                </div>
+                                <div class="col-8">
+                                    <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem">10%</p>   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="lead fw-normal mb-0 text-left" style="font-size: 1.25rem">Per Wallet</p>   
+                                </div>
+                                <div class="col-8">
+                                    <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem">2 (Allow List)<br />5 (Public Mint)</p>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5 text-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 col-12"><a class="btn btn-outline-primary btn-lg" href="genesis-nft.html">Learn more</a></div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NFT Trust Playbook -->
+            <section class="py-5 bg-light" id="scroll-target">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">NFT Trust Playbook</h2>
+                    </div>
+                </div>
+
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-1"></div>
+                        <div class="col-md-10 text-center">                            
+                            <p class="lead fw-normal text-muted mb-0 text-left">We've compiled a FREE playbook for NFT buyers to learn what indicates an NFT is less likely to rug (aka scam) you by being upfront and honest about the project.<br /><br />For NFT builders we've made it easier to ensure that you're communicating and structing your NFT mint to be as secure and trustworthy as possible.<br /><br />Some of these are simple, like ensuring that you know the team behind the project. Follow this playbook, and you'll position your buying decisions or mint to be more successful.</p>
+                        </div>                        
+                    </div>
+                    <div class="row pt-5 text-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 col-12"><a class="btn btn-outline-primary btn-lg" href="nft-trust-playbook.html">Get the playbook</a></div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web3 Resources -->
+            <section class="py-5" id="scroll-target">
+                <div class="container px-5 mt-5 mb-2">
+                    <div class="row gx-5 text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Web3 Resources</h2>
+                    </div>
+                </div>
+
+                <div class="container px-3 mt-3">
+                    <div class="row gx-5">
+                        <div class="col-lg-6 pt-5">
+                            <h2 class="fw-bolder text-center" style="font-size: 2rem;">Buyers</h2>     
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> Level-based filters to help anyone learn more</p>   
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> Onboarding resources to get you started</p>   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> Wide-range of topics (NFTs, Web3, Security, etc)</p>
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> New resources added regularly</p>                                    
+                        </div>
+                        <div class="col-lg-6 pt-5">
+                            <h2 class="fw-bolder text-center" style="font-size: 2rem;">Builders</h2>     
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> Content to help you builder bigger, better, faster</p>   
+                            <p class="lead fw-normal text-muted mb-0 text-left" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> Suitable for newcomers and advanced builders</p>   
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> Stand on the shoulders of experts in the Web3 space</p>
+                            <p class="lead fw-normal text-muted mb-0" style="font-size: 1.25rem"><i class="bi bi-arrow-return-right"></i> New resources added regularly</p>                                               
+                        </div>
+                    </div>
+                    <div class="row pt-5 text-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 col-12"><a class="btn btn-outline-primary btn-lg" href="web3-resources.html">See all Web3 resources</a></div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team -->
+            <section class="py-5 bg-light">
+                <div class="container px-5">
+                    <div class="text-center">
+                        <h2 class="fw-bolder" style="font-size: 3rem;">Team</h2>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <img class="rounded" width="200px" src="assets/elliotkoss-founder-futurenftmints.png" alt="..." />
+                                <h5 class="fw-bolder">Elliot Koss</h5>
+                                <div class="fst-italic text-muted">Founder</div>
+                                <a href="https://twitter.com/elliotkoss" target="_BLANK"><img width="20" src="assets/twitter-logo.png"></a>
+                                <a href="https://linkedin.com/in/elliotkoss" target="_BLANK"><img width="20" src="assets/linkedin-logo.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row">
+                    <div class="col-md-4 text-white">
+                        <h4 class="fw-bolder" style="font-size: 1.5rem;">Buyer</h4>
+                        <a href="insights-report.html" target="_BLANK" style="text-decoration: none; color:white">Insights Reports</a>
+                        <br /><a href="nft-calendar.html" target="_BLANK" style="text-decoration: none; color:white">NFT Calendar</a>
+                        <br /><a href="web3-resources.html?type=buyer" target="_BLANK" style="text-decoration: none; color:white">Web3 Resources</a>
+                        <br /><a href="nft-trust-playbook.html?type=buyer" target="_BLANK" style="text-decoration: none; color:white">Trust Playbook</a>
+                    </div>
+                    <div class="col-md-4 text-white">
+                        <h4 class="fw-bolder" style="font-size: 1.5rem;">Builder</h4>
+                        <a href="nft-submission-form.html" target="_BLANK" style="text-decoration: none; color:white">NFT Submission Form</a>                        
+                        <br /><a href="web3-resources.html?type=builder" target="_BLANK" style="text-decoration: none; color:white">Web3 Resources</a>
+                        <br /><a href="nft-trust-playbook.html?type=builder" target="_BLANK" style="text-decoration: none; color:white">Trust Playbook</a>
+                    </div>
+                    <div class="col-md-4 text-white">
+                       <h4 class="fw-bolder" style="font-size: 1.5rem;">Our NFT</h4>
+                        <a href="genesis-nft.html" target="_BLANK" style="text-decoration: none; color:white">Genesis NFT</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center pt-5">                        
+                        <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="40" src="assets/twitter-logo.png"></a>       
+                        <a href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="40" src="assets/discord-logo.png"></a>                 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center text-white pt-5">                        
+                        Feel free to send donations to
+                        <br />futurenftmints.eth
+                        <br />futurenftmints.sol              
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row mt-5">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; <a href="https://twitter.com/futurenftmints" target="_BLANK">Future NFT Mints</a> 2021 and beyond</div></div>                    
+                    <div class="col-auto text-white">                                                                       
+                        Not Financial Advice (NFA). Do Your Own Research (DYOR).
+                        <!--
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </footer>
         
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script>
-            window.addEventListener("load", function() {
-                location.href = 'insights-report.html';              
-            });
-
-        </script>
+        <script src="js/scripts.js"></script>   
     </body>
 </html>
