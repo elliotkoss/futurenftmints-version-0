@@ -162,9 +162,13 @@
                             <div class="col-lg-8 col-xl-6">
                                 <h2 class="fw-bolder">Description</h2>
                             </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="description" name="Description" type="text" style="height: 6rem" ></textarea>
+                            <div class="form-floating form-limited-length mb-3">
+                                <textarea class="form-control" id="description" name="Description" type="text" style="height: 6rem"></textarea>
                                 <label for="description">Description</label>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-light text-secondary"><small>Max 140 characters</small></p>
+                                    <p><small class="fw-light text-secondary text-length-counter">0</small></p>
+                                </div>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="utility" name="Utility" type="text" />
@@ -236,13 +240,21 @@
                             <div class="col-lg-8 col-xl-6">
                                 <h2 class="fw-bolder">Two Perspectives</h2>
                             </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="bullish" name="Bullish" type="text" style="height: 6rem" ></textarea>
+                            <div class="form-floating form-limited-length mb-3">
+                                <textarea class="form-control" id="bullish" name="Bullish" type="text" style="height: 6rem"></textarea>
                                 <label for="bullish">Why might we be bullish about this project?</label>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-light text-secondary"><small>Max 140 characters</small></p>
+                                    <p><small class="fw-light text-secondary text-length-counter">0</small></p>
+                                </div>
                             </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="bearish" name="Bearish" type="text" style="height: 6rem" ></textarea>
+                            <div class="form-floating form-limited-length mb-3">
+                                <textarea class="form-control" id="bearish" name="Bearish" type="text" style="height: 6rem"></textarea>
                                 <label for="bearish">Why might we be bearish about this project?</label>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-light text-secondary"><small>Max 140 characters</small></p>
+                                    <p><small class="fw-light text-secondary text-length-counter">0</small></p>
+                                </div>
                             </div>
                             <hr />
                             <div class="col-lg-8 col-xl-6">
@@ -341,6 +353,12 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script>
+            const limitedLengthFields = document.querySelectorAll('.form-limited-length textarea')
+            for (var i = 0; i < limitedLengthFields.length; i++) {
+                const formField = limitedLengthFields[i]
+                formField.addEventListener('keyup', updateTextLengthCounter)
+            }
+
             window.addEventListener("load", function() {
               const form = document.getElementById('nft-submission-form');
               form.addEventListener("submit", function(e) {

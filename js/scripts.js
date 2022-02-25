@@ -5,3 +5,10 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+function updateTextLengthCounter(event) {
+    const textLength = event.target.value.length
+    // assume the input and text-length-counter are grouped in the same parentElement
+    const counter = event.target.parentElement.getElementsByClassName('text-length-counter')[0]
+    counter.textContent = textLength
+}
