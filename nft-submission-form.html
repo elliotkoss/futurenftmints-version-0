@@ -40,14 +40,14 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <main class="flex-shrink-0">
-            
+
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><img width="100"  class="d-inline-block align-top" src="assets/logo-navbar.png"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">                            
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Buyer</a>
                                 <ul class="dropdown-menu dropdown-menu-end dropdown-columns-2" aria-labelledby="navbarDropdownBlog">
@@ -88,30 +88,29 @@
                             <li class="nav-item"><a class="nav-link" href="genesis-nft.html">Genesis NFT</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://twitter.com/futurenftmints" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/twitter-logo.png"></a></li>
                             <li class="nav-item"><a class="nav-link" href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="20" class="d-inline-block align-top" src="assets/discord-logo.png"></a></li>
-                        </ul>                        
+                        </ul>
                     </div>
                 </div>
             </nav>
-            
+
             <!-- Header-->
             <header class="py-5">
                 <div class="container px-5 mt-5">
                     <div class="row justify-content-center">
-                        <div class="col-lg-8 col-xxl-6">
-                            <div class="text-center my-2">
-                                <h1 class="fw-bolder mb-1">NFT Submission Form</h1>
-                            </div>
+                        <div class="col-lg-12 col-xxl-12">
+                            <h1 class="text-center my-2 fw-bolder">Submit an NFT</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-lg-10 col-xxl-10">
-                            <div class="text-left my-1">          
-                                <p class="lead fw-normal text-muted mb-4">Submit your NFT to be considered for the Future NFT Mints daily Insights Report.<br />Submit as early as possible and submit anytime you have an update for your project.<br />Creators / Founders with verifiable public profiles will automatically qualify for these benefits:</p>
+                        <div class="col-lg-12 col-xxl-12">
+                            <div class="text-left my-1">
+                                <hr />
+                                <p class="lead fw-normal text-muted mb-4">Submit an NFT to be considered for the Future NFT Mints daily Insights Report.<br />Submit as early as possible and submit anytime you have an update for the project.<br />Creators / founders with verifiably public profiles will automatically qualify for these benefits:</p>
                                 <p class="lead fw-normal text-muted mb-1">1️⃣ Added to the website's calendar (launching soon)</p>
                                 <p class="lead fw-normal text-muted mb-1">2️⃣ Reviewed within 24 hours with a response</p>
                                 <p class="lead fw-normal text-muted mb-1">3️⃣ Priority consideration to be featured in the Daily Insights Report</p>
-                                <p class="lead fw-normal text-muted my-4">As you're building and before you mint, please take a look at our handy <a href="nft-trust-playbook.html">NFT Trust Playbook</a> with a 50+ item checklist that will help improve transparency and trust to help make your mint as successful as possible!</p>
-                                <a class="btn btn-outline-primary btn-lg" href="https://clicktotweet.com/fUcu1" target="_BLANK">Share <img width="30" class="d-inline-block align-top" src="assets/twitter-logo.png"></a>                                
+                                <p class="lead fw-normal text-muted my-4">If you are an NFT creator, make your mint as successful as possible by taking a look at our handy <a href="nft-trust-playbook.html">NFT Trust Playbook</a> with a 50+ item checklist that will help improve transparency and trust!</p>
+                                <a class="btn btn-outline-primary btn-lg" href="https://clicktotweet.com/fUcu1" target="_BLANK">Share <img width="30" class="d-inline-block align-top" src="assets/twitter-logo.png"></a>
                             </div>
                         </div>
                     </div>
@@ -119,25 +118,27 @@
             </header>
 
             <div class="container px-5 mb-5">
-                <!-- Contact form-->
+                <!-- NFT Submission Form -->
+                <hr />
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-6">
                         <!-- https://github.com/levinunnink/html-form-to-google-sheet -->
                         <form id="nft-submission-form" method="post" action="https://script.google.com/macros/s/AKfycby0wpLspLloQm0vX5sf_2OnsUgPbBNjT0O6jEjarg4N1y4ihUdajXpCr2WVvIE2ssnZkQ/exec">
-                            <div class="form-floating mb-3">                                        
-                                <div class="text-muted">* Required</div>
+                            <div class="col-lg-8 col-xl-6">
+                                <h2 class="fw-bolder">Project Details</h2>
                             </div>
-                            <div class="form-floating mb-3">                                          
+                            <div class="text-muted mb-1">* Required</div>
+                            <div class="form-floating mb-3">
                                 <input class="form-control" id="project" name="Project" type="text" data-sb-validations="required" />
-                                <label for="project">NFT Collection Name*</label>
+                                <label for="project">Collection Name*</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="mintDate" name="MintDate" type="date" data-sb-validations="email" />
-                                <label for="mintDate">Mint Date</label>
+                                <input class="form-control" name="TotalQuantity" type="text" />
+                                <label for="quantity">Total Quantity</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <select class="form-control" id="blockchain" name="Blockchain" />
-                                    <option value="eth">Ethereum (ETH)</option>
+                                    <option value="ETH">Ethereum (ETH)</option>
                                     <option value="SOL">Solana (SOL)</option>
                                     <option value="MATIC">Polygon (MATIC)</option>
                                     <option value="ADA">Cardano (ADA)</option>
@@ -146,55 +147,127 @@
                                 <label for="blockchain">Blockchain (select from dropdown)</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="price" name="Price" type="text" />
-                                <label for="price">Price</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="quantity" name="Quantity" type="text" />
-                                <label for="quantity">Quantity</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <select class="form-control" id="allowlist" name="AllowList" />
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                </select>
-                                <label for="allowlist">Allow List (select from dropdown)</label>
-                            </div>
-                            <div class="form-floating mb-3">
                                 <input class="form-control" id="website" name="Website" type="text" />
-                                <label for="website">Website URL</label>
+                                <label for="website">Project Website</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="twitter" name="Twitter" type="text" />
-                                <label for="twitter">Twitter URL</label>
+                                <label for="twitter">Project Twitter</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="discord" name="Discord" type="text" />
-                                <label for="discord">Discord URL</label>
+                                <label for="discord">Official Discord Server</label>
                             </div>
-                            <div class="form-floating mb-3">                                        
-                                <div class="text-muted">Team</div>
+                            <hr />
+                            <div class="col-lg-8 col-xl-6">
+                                <h2 class="fw-bolder">Description</h2>
+                            </div>
+                            <div class="form-floating form-limited-length mb-3">
+                                <textarea class="form-control" id="description" name="Description" type="text" style="height: 6rem"></textarea>
+                                <label for="description">Description</label>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-light text-secondary"><small>Max 140 characters</small></p>
+                                    <p><small class="fw-light text-secondary text-length-counter">0</small></p>
+                                </div>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="founder" name="Founder" type="text" />
-                                <label for="founder">Founder / Lead Name*</label>
+                                <input class="form-control" id="utility" name="Utility" type="text" />
+                                <label for="utility">Utility</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="perks" name="Perks" type="text" />
+                                <label for="perks">Perks</label>
+                            </div>
+                            <hr />
+                            <div class="col-lg-8 col-xl-6">
+                                <h2 class="fw-bolder">The Team</h2>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="team" name="Team" type="text" />
+                                <label for="team">About the Team</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="founderTwitter" name="FounderTwitter" type="text" data-sb-validations="required" />
-                                <label for="founderTwitter">Twitter (or LinkedIn) URL*</label>
+                                <label for="founderTwitter">Founder Twitter</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="contact" name="Contact" type="text" />
-                                <label for="contact">Preferred Team Contact Name</label>
+                                <input class="form-control" id="founderLinkedIn" name="FounderLinkedIn" type="text" data-sb-validations="required" />
+                                <label for="founderLinkedIn">Founder LinkedIn</label>
+                            </div>
+                            <hr />
+                            <div class="col-lg-8 col-xl-6">
+                                <h2 class="fw-bolder">Mint Details</h2>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="contactInfo" name="ContactInfo" type="text" data-sb-validations="required" />
-                                <label for="contactInfo">Contact Info* (email, Twitter handle, etc)</label>
+                                <input class="form-control" id="mintDate" name="MintDate" type="date" />
+                                <label for="mintDate">Public Mint Date</label>
                             </div>
-                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="mintTime" name="MintTime" type="time" />
+                                <label for="mintTime">Public Mint Time in ET (hh:mm AM/PM)</label>
+                            </div>
+                            <div class="mb-3">
+                                <p>Will there be a Dutch auction?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="DutchAuction" id="dutchAuctionYes">
+                                    <label class="form-check-label" for="dutchAuctionYes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="DutchAuction" id="dutchAuctionNo">
+                                    <label class="form-check-label" for="dutchAuctionNo">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <p>Is there an Allow List? (Allow List replaces the term 'Whitelist')</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="AllowList" id="allowListYes">
+                                    <label class="form-check-label" for="allowListYes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="AllowList" id="allowListNo">
+                                    <label class="form-check-label" for="allowListNo">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-lg-8 col-xl-6">
+                                <h2 class="fw-bolder">Two Perspectives</h2>
+                            </div>
+                            <div class="form-floating form-limited-length mb-3">
+                                <textarea class="form-control" id="bullish" name="Bullish" type="text" style="height: 6rem"></textarea>
+                                <label for="bullish">Why might we be bullish about this project?</label>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-light text-secondary"><small>Max 140 characters</small></p>
+                                    <p><small class="fw-light text-secondary text-length-counter">0</small></p>
+                                </div>
+                            </div>
+                            <div class="form-floating form-limited-length mb-3">
+                                <textarea class="form-control" id="bearish" name="Bearish" type="text" style="height: 6rem"></textarea>
+                                <label for="bearish">Why might we be bearish about this project?</label>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-light text-secondary"><small>Max 140 characters</small></p>
+                                    <p><small class="fw-light text-secondary text-length-counter">0</small></p>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-lg-8 col-xl-6">
+                                <h2 class="fw-bolder">Additional Details</h2>
+                            </div>
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="notes" name="Notes" type="text" style="height: 6rem" ></textarea>
-                                <label for="notes">Notes</label>                                        
+                                <label for="notes">Notes</label>
+                            </div>
+                            <p class="small text-muted mb-4">If you'd like to be credited for the research provided, please provide your Twitter handle.</p>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="researcherTwitter" name="ResearcherTwitter" type="text" data-sb-validations="required" />
+                                <label for="researcherTwitter">Your Twitter Handle</label>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -214,15 +287,15 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit NFT</button></div>
                         </form>
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </main>
-        
+
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
@@ -236,7 +309,7 @@
                     </div>
                     <div class="col-md-4 text-white">
                         <h4 class="fw-bolder" style="font-size: 1.5rem;">Builder</h4>
-                        <a href="nft-submission-form.html" target="_BLANK" style="text-decoration: none; color:white">NFT Submission Form</a>                        
+                        <a href="nft-submission-form.html" target="_BLANK" style="text-decoration: none; color:white">NFT Submission Form</a>
                         <br /><a href="web3-resources.html?type=builder" target="_BLANK" style="text-decoration: none; color:white">Web3 Resources</a>
                         <br /><a href="nft-trust-playbook.html?type=builder" target="_BLANK" style="text-decoration: none; color:white">Trust Playbook</a>
                     </div>
@@ -246,22 +319,22 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center pt-5">                        
-                        <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="40" src="assets/twitter-logo.png"></a>       
-                        <a href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="40" src="assets/discord-logo.png"></a>                 
+                    <div class="col-12 text-center pt-5">
+                        <a href="https://twitter.com/futurenftmints" target="_BLANK"><img width="40" src="assets/twitter-logo.png"></a>
+                        <a href="https://discord.gg/PbXfbcG5xz" target="_BLANK"><img width="40" src="assets/discord-logo.png"></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center text-white pt-5">                        
+                    <div class="col-12 text-center text-white pt-5">
                         Feel free to send donations to
                         <br />futurenftmints.eth
-                        <br />futurenftmints.sol              
+                        <br />futurenftmints.sol
                     </div>
                 </div>
 
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row mt-5">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; <a href="https://twitter.com/futurenftmints" target="_BLANK">Future NFT Mints</a> 2021 and beyond</div></div>                    
-                    <div class="col-auto text-white">                                                                       
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; <a href="https://twitter.com/futurenftmints" target="_BLANK">Future NFT Mints</a> 2021 and beyond</div></div>
+                    <div class="col-auto text-white">
                         Not Financial Advice (NFA). Do Your Own Research (DYOR).
                         <!--
                         <a class="link-light small" href="#!">Privacy</a>
@@ -280,6 +353,12 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script>
+            const limitedLengthFields = document.querySelectorAll('.form-limited-length textarea')
+            for (var i = 0; i < limitedLengthFields.length; i++) {
+                const formField = limitedLengthFields[i]
+                formField.addEventListener('keyup', updateTextLengthCounter)
+            }
+
             window.addEventListener("load", function() {
               const form = document.getElementById('nft-submission-form');
               form.addEventListener("submit", function(e) {
